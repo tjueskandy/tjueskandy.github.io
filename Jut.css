@@ -1,0 +1,112 @@
+body{
+	
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Exo 2', sans-serif;
+	height: 100%;
+
+}
+	
+
+#Menu{
+	display:flex;
+	border: solid;
+
+}
+
+.gauche{
+	background-color:#0B2F3A;
+	width: 25%;
+	color:#E8930C;
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 20px;
+
+}
+
+.droite{
+	width:75%;
+	padding-top: 10px;
+	background-color: #D9FF0D;
+	}
+	
+
+.Ly{
+	font-size: 100px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	font-family: 'Paytone One', sans-serif;
+
+
+
+}
+
+
+
+.Mini{
+	font-size: 40px;
+	color: #086A87;
+	font-family: 'Acme', sans-serif;
+
+	
+}
+
+.Exp{
+	font-size: 20px;
+}
+
+.Recherche{
+	font-size: 80px;
+	font-weight: bold;
+	color: #086A87;
+	font-family: 'Acme', sans-serif;
+
+
+}
+
+.Competences{
+	font-size: 40px;
+	margin-top: 10%;
+	margin-bottom: 30px;
+}
+
+.paint{
+	margin-bottom: 30px;
+	margin-top: 30px;
+
+}
+
+.Adresse{
+	margin-top: 20%;
+}
+
+img{margin-top: 30px;}
+
+.auto{
+	text-align: left;
+	margin-left: 10px;
+}
+
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+  margin-left: 90px;
+
+
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  border:double 5px #E8930C;
+
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
